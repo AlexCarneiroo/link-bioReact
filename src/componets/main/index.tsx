@@ -1,14 +1,10 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import * as C from './styled';
 import { FaFacebook, FaGlobe, FaTrophy, FaWhatsapp } from "react-icons/fa";
 
 
 
 export const ContMain = () => {
-
-    useEffect(() => {
-
-    }, [])
 
 
     //alerta

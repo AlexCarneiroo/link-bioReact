@@ -19,7 +19,7 @@ export const Header = styled.div`
 `;
 
 export const logo = styled.img`
-    width: 22%;
+    width: 25%;
     border-radius: 50%;
     margin-top: 20px;
 `;

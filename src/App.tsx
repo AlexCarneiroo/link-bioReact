@@ -1,7 +1,6 @@
 import * as C from './styles-compo';
 import { ContHeader } from './componets/header';
 import { ContMain } from './componets/main'; 
-import { useState } from 'react';
 
 function App() {
   return (
