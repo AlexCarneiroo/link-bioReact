@@ -21,13 +21,14 @@ export const BtnPrincipal = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 
     font-family: 'Poppins', sans-serif;
 `;
 
 export const BtnCont = styled.div`
     width: 100%;
-    max-width: 28%;
+    max-width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
