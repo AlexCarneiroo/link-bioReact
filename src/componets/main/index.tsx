@@ -21,11 +21,15 @@ export const ContMain = () => {
         let link = 'https://api.whatsapp.com/send?phone=5511953389909&text=Oi,Pico%20das%20prata'
         window.open(link, '_blank')
     }
+    const Catalogo = () => {
+        let link = 'https://catalogo-loja-pico-das-prata.vercel.app/'
+        window.open(link, '_blank')
+    }
 
 
     //Alertas
 
-    const timerOutFunti = () => {
+/*     const timerOutFunti = () => {
 
         if (!isSitMensage) {
 
@@ -35,10 +39,9 @@ export const ContMain = () => {
             }, 2000)
 
         }
-    }
+    } */
 
-
-    const handlAlerta = () => {
+/*     const handlAlerta = () => {
         // const novoTamanho = (tamanho === '38px') ? '0px' : '38px'
         // setTamanho(novoTamanho)
 
@@ -49,7 +52,7 @@ export const ContMain = () => {
         timerOutFunti()
 
 
-    }
+    } */
     const handlAlerta2 = () => {
         setAlerta(true)
         setSitMensa('Rifas indisponiveis no Momento 🙁')
@@ -59,8 +62,6 @@ export const ContMain = () => {
 
 
     }
-
-
 
 
     return (
@@ -88,7 +89,7 @@ export const ContMain = () => {
                         </C.incon>
                         <C.textBtn>Whatsapp</C.textBtn>
                     </C.BtnCont>
-                    <C.BtnCont onClick={handlAlerta}>
+                    <C.BtnCont onClick={Catalogo}>
                         <C.incon>
                             <FaGlobe />
                         </C.incon>
